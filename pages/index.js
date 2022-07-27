@@ -19,7 +19,7 @@ const DUMMY_MEETUPS = [
   },
 ];
 
-const HomePage = () => {
+const HomePage = (props) => {
   return <MeetUpList meetups={props.meetups} />;
 };
 
